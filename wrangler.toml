@@ -1,0 +1,10 @@
+name = "vodka-panel"
+main = "_worker.js"
+compatibility_date = "2026-09-23"
+
+[[kv_namespaces]]
+binding = "VODKA_KV"
+id = "YOUR_VODKA_KV_NAMESPACE_ID"
+
+# Set this as a Cloudflare Secret (do NOT commit it to GitHub):
+# VODKA_DEFAULT_PASSWORD
